@@ -1,0 +1,249 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: beige;
+    color: rgb(0, 136, 146);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+html {
+    font-size: 16px;
+}
+
+#topmenu ul {
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    line-height: 40px;
+    background-color: rgb(200, 162, 200);
+    list-style: none;
+    text-align: center;
+}
+
+#topmenu {
+    background-color: black;
+}
+
+#topmenu ul li {
+    width: 100px;
+    margin: 0 5px;
+    padding: 5px 0;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+}
+
+#topmenu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#topmenu ul li:hover {
+    background-color: #553592;
+}
+
+h1 {
+    font-size: 80px;
+    padding: 80px 0;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 27px;
+    font-weight: 100;
+    margin: 20px;
+}
+
+button {
+    color: white;
+    background: black;
+    border: 5px solid #c74ead;
+    border-radius: 15px;
+    margin-top: 40px;
+    padding: 15px 45px;
+    font-size: 16px;
+}
+
+button:hover {
+    opacity: 70%;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #111;
+}
+
+.footercontainer {
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.socialicons {
+    display: flex;
+    justify-content: center;
+}
+
+.socialicons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialicons a i {
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+.socialicons a:hover {
+    background-color: #111;
+    color: white;
+    transition: 0.5s;
+}
+
+.footernav {
+    margin: 30px 0;
+}
+
+.footernav ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footernav ul li a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.5em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footernav ul li a:hover {
+    opacity: 1;
+}
+
+.footerbottom {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerbottom p {
+    color: white;
+}
+
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 60px; 
+        padding: 40px 0;
+    }
+
+    p {
+        font-size: 20px; 
+        margin: 15px;
+    }
+
+    button {
+        padding: 10px 30px; 
+        font-size: 14px;
+    }
+
+    #topmenu ul li {
+        width: 80px; 
+        margin: 0 3px;
+        font-size: 0.9em;
+    }
+
+    .footercontainer {
+        padding: 50px 20px; 
+    }
+
+    .socialicons a i {
+        font-size: 1.5em; 
+    }
+
+    .footernav ul li a {
+        font-size: 1.2em;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 40px; 
+        padding: 30px 0;
+        letter-spacing: 3px;
+    }
+
+    p {
+        font-size: 18px;
+        margin: 10px;
+    }
+
+    button {
+        padding: 8px 20px;
+        font-size: 12px;
+    }
+
+    #topmenu ul {
+        display: flex;
+        flex-direction: column; 
+        height: auto;
+    }
+
+    #topmenu ul li {
+        width: 100%; 
+        margin: 0;
+    }
+
+    .footercontainer {
+        padding: 30px 10px;
+    }
+
+    .socialicons {
+        flex-wrap: wrap; 
+    }
+
+    .socialicons a {
+        margin: 5px; 
+    }
+
+    .footernav ul {
+        flex-direction: column; 
+    }
+
+    .footernav ul li {
+        margin: 5px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 30px;
+        padding: 20px 0;
+    }
+
+    p {
+        font-size: 16px;
+        margin: 5px;
+    }
+
+    button {
+        padding: 5px 15px;
+        font-size: 10px;
+        border-width: 3px; 
+    }
+
+    .footercontainer {
+        padding: 20px 5px;
+    }
+
+    .socialicons a {
+        padding: 5px;
+    }
+}

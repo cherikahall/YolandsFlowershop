@@ -1,0 +1,212 @@
+#topmenu ul {
+    padding: 0%;
+    height: 40px;
+    line-height: 30px;
+    background-color: rgb(200, 162, 200);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#topmenu {
+    background-color: black;
+}
+
+li {
+    width: 100px;
+    margin: 0 5px;
+    padding: 5px 0;
+    cursor: pointer;
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    align-items: center;
+}
+
+li:hover {
+    background-color: #553592;
+}
+
+body {
+    background-image: url(pink\ ranniculus.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: wheat;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button {
+    background-color: pink;
+    border-radius: 20px;
+    border: 5px hotpink solid;
+    font-size: 22px;
+    padding: 10px 18px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+}
+button:hover {
+    opacity: 60%;
+    cursor: pointer;
+}
+
+div#MyLiveChatContainer {
+    background-color: pink;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    border: 5px solid hotpink;
+    border-radius: 15px;
+}
+
+footer {
+    display: block;
+    background-color: #111;
+    color: white;
+    padding: 20px 0;
+    margin-top: auto;
+}
+
+.footercontainer {
+    width: 100%;
+    padding: 50px 30px 20px;
+    text-align: center;
+}
+
+.socialicons {
+    display: flex;
+    justify-content: center;
+}
+
+.socialicons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socialicons a i {
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+.socialicons a:hover {
+    background-color: #111;
+    color: white;
+    transition: 0.5s;
+}
+
+.footernav {
+    margin: 30px 0;
+}
+
+.footernav ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footernav ul li {
+    margin: 0 15px;
+}
+
+.footernav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    opacity: 0.7;
+    transition: opacity 0.5s;
+}
+
+.footernav ul li a:hover {
+    opacity: 1;
+}
+
+.footerbottom {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerbottom p {
+    margin: 0;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    #topmenu ul {
+        display: block;
+        text-align: left;
+    }
+
+    li {
+        width: 100%;
+        margin: 10px 0;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    button {
+        font-size: 18px;
+        padding: 8px 15px;
+    }
+
+    div#MyLiveChatContainer {
+        width: 80px;
+        height: 80px;
+    }
+
+    .footercontainer {
+        padding: 30px 10px;
+    }
+
+    .socialicons a {
+        font-size: 1.5em;
+        padding: 8px;
+    }
+
+    .footernav ul li a {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    button {
+        font-size: 16px;
+    }
+
+    .footercontainer {
+        padding: 20px 5px;
+    }
+
+    .socialicons a {
+        padding: 5px;
+    }
+}
